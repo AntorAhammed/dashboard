@@ -1,0 +1,50 @@
+.stake{
+    height: fit-content;
+}
+.stake_number_content{
+    border-bottom: 1px solid #2C2B2B;
+}
+.stake_btn{
+    display: flex;
+    justify-content:center;
+}
+.stake_btn button{
+    margin-left: 10px;
+    border : none;
+    padding: 10px 30px;
+    background : none;
+    color : #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.stake_btn button:focus{
+    border-bottom :1px solid red !important;
+}
+@media (max-width : 1300px) {
+    .stake{
+        height: 100% !important;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .stake {
+        width: 97%;
+        height: 105% !important;
+        margin-top: 74px;
+        border-radius: 0px;
+    }
+    .stake_balance{
+        flex-direction: column;
+    }
+    .stake_number_balance_title{
+        margin-left: 0px;
+    }
+    .bet_slip_content {
+        background: #0F0F0F;
+        box-shadow: 10px 10px 4px rgb(0 0 0 / 25%);
+        margin-top: 30px;
+        border-radius: 40px;
+        padding: 20px 10px;
+    }
+}

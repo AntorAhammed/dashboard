@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F0F0F;;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    padding: 0px 10%;
+    height: 100px;
+}
+.logo img{
+    height: 80px;
+}
+.navbar .menu li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbar .menu li a{
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.09em;;
+}
+.menu #bar{
+    display: none;
+    font-size: 22px;
+    align-items: center;
+    margin-top: 15px;
+}
+@media (max-width : 780px) {
+    .menu #bar{
+        display: inline-block;
+    }
+   
+}

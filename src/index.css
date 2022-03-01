@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #000;
+  color : #fff;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+
+/* ============================= */
+/* --------- Custom CSS -------- */
+/* ============================= */
+.body{
+  display: flex;
+  margin : 20px auto;
+}
+.sidebar{
+  width: 20%;
+  position: relative;
+}
+.content{
+  width: 80%;
+  position: relative;
+  display:flex;
+  padding: 0px 50px 0px 0px;
+}
+@media (max-width : 1545px) {
+  .sidebar{
+    width: 30%;
+  }
+  .content{
+    width : 70%;
+  }
+}
+@media (max-width: 1000px) {
+  .sidebar{
+    width: 35%;
+  }
+  .content{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 auto;
+  }
+}
+@media (max-width : 780px) {
+  .sidebar{
+    width: 50%;
+    position: fixed;
+    z-index: 111111111111;
+  }
+  .content{
+    width: 100%;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 20px;
+
+  }
+}
+@media (max-width : 450px) {
+  .sidebar{
+    width: 90%;
+    position: fixed;
+    z-index: 111111111111;
+  }
+}
+/* =================================================================
+                  CSS IMPORTS
+  ================================================================== */
+  @import url("./Component/Navbar/Navbar.css");
+  @import url("./Component/Sidebar/Sidebar.css");
+  @import url("./Component/Body/Overview/Overview.css");
+  @import url("./Component/Body/Bond/Bond.css");
+  @import url("./Component/Body/Stake/Stake.css");
+  @import url("./Component/Body/BetSlip/BetSlip.css");
+  @import url("./Component/Body/CreateEvent/createEvent.css");
+  @import url("./Component/Body/ValidateEvents/ValidateEvents.css");
+  @import url("./Component/Body/SelfHelp/SelfHelp.css");

@@ -1,0 +1,221 @@
+.bond{
+    width: 100%;
+    height: fit-content;
+    background : #0F0F0F;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px 40px 40px 40px;
+    padding: 20px 0px;
+
+}
+.balance{
+    border-bottom: 1px solid #2C2B2B;
+    padding : 30px 40px;
+    display: flex;
+    justify-content:space-between;
+}
+.total_tesary_ballance{
+    line-height: 10px;
+    letter-spacing: 0.08em;
+}
+.total_tesary_ballance_p{
+    margin-right: 20px;
+}
+.bond_number{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.bond_number_content{
+    padding: 10px 20px;
+    line-height:10px;
+}
+.bond_box_content{
+    display: flex;
+    justify-content: center;
+}
+.bond_box_content table{
+    height : 70px ;
+    width : 70%;
+    justify-content:flex-end;
+    text-align: left;
+}
+.bond_name{
+    display: flex;
+    align-items: center;
+}
+.bond_name_img{
+    height: 50px;
+    width: 50px;
+    /* display : block; */
+    margin-right:20px ;
+}
+
+.bond_btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    padding: 0px 40px;
+}
+.bond_btn button{
+    border : none;
+    background: #fff;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+.bond_name_percent{
+    color: rgb(2, 165, 2);
+}
+
+/* BondAprove */
+
+.bond_aprove_border{
+    border-bottom: 0.2px solid #000000;
+    padding: 20px 0px;
+}
+.bond_number_balance{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 40px 40px;
+}
+.bond_number_balance_title{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 50px;
+    font-size: 16px;
+    color: rgb(148, 145, 145);
+    text-transform: uppercase;
+}
+.bond_number_balance_title p{
+    color : #fff;
+}
+.aprove_bond{
+    display: flex;
+    justify-content:space-between;
+}
+.aprove_bond input{
+    border : none;
+    background: #151515;
+    width: 300px;
+}
+.aprove_bond input::placeholder{
+    text-align: right;
+    padding-right: 20px;
+}
+.bond_settings_btn{
+    display: flex;
+    /* align-items: center; */
+    padding: 30px 40px;
+    font-size: 22px;
+    margin-top: -20px;
+}
+
+.bond_settings_btn span{
+    cursor: pointer;
+}
+
+/* Bond Settings */
+.settings_div{
+    display: flex;
+    flex-direction: column;
+    width : 100%;
+}
+.bond_settings{
+    height: 55%;
+    background : #0F0F0F;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 50px;
+}
+.bond_settings_icon{
+    border-bottom: 1px solid #2C2B2B;
+    padding : 30px 40px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+}
+.bond_settings_icon span{
+    margin-left: 10px;
+    font-size: 22px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.bond_settings_number{
+    display: flex;
+    flex-direction: column;
+    padding : 20px 40px;
+}
+.bond_settings_number input{
+    border : none;
+    background: #151515;
+    width: 300px;
+    height: 50px;
+}
+.bond_settings_number input::placeholder{
+    text-align: right;
+    padding-right: 20px;
+    font-size:18px;
+    font-weight: 700;
+}
+.suppage{
+    margin-bottom: 20px;
+}
+.bond_settings_box h6{
+    letter-spacing: 0.08em;
+}
+
+
+@media (max-width : 600px) {
+    .bond {
+        width: 100%;
+        background: #0F0F0F;
+        box-shadow: 10px 10px 4px rgb(0 0 0 / 25%);
+        border-radius: 40px 40px 40px 40px;
+    }
+    .bond_box_content table {
+        height: 70px;
+        width: 90%;
+        justify-content: flex-end;
+        text-align: left;
+    }
+    .bond_number_balance {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 40px 0px;
+    }
+    .balance{
+        flex-direction: column;
+    }
+    .aprove_bond input {
+        border: none;
+        background: #151515;
+        width: 200px;
+    }
+    .bond_btn button {
+        padding: 10px 20px;
+     
+    }
+    .bond_settings {
+       margin-left: 7px;
+        width: 97%;
+    }
+    .total_tesary_ballance{
+        font-size: 15px;
+    }
+    .bond_number_balance_title {
+        margin-left: 10px;
+        font-size:14px;
+    }
+    .bond_aprove_border {
+       font-size: 14px;
+    }
+}
